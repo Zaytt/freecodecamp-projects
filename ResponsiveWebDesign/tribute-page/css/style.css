@@ -1,0 +1,210 @@
+body, html, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("http://wallvie.com/wp-content/uploads/2018/03/Bruce-Lee-Wallpaper-Widescreen-Of-Iphone-Hd.jpg");
+  min-height: 100%;
+  opacity: 0.85;
+}
+
+.bgimg-2 {
+  background-image: url("https://wallpapercave.com/wp/kU1ZooY.jpg");
+  min-height: 400px;
+  opacity: .95;
+}
+.bgimg-3 {
+  background-image: url("http://celebwallpapers.net/wp-content/uploads/2017/11/bruce-lee-wallpaper-bruce-lee-wallpaper-wallpaper-of-bruce-lee-wallpaper.jpg");
+  min-height: 800px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.fixedContainer {
+    position: absolute;
+    padding: 2em;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.about{
+  
+  color: black;
+  background-color:white;
+  text-align:center;
+  padding: 20px 80px 50px;
+  text-align: left;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, .12);
+  position: relative;
+  z-index: 1;
+}
+p {
+  font-size: 25px;
+}
+text-center {
+  text-align: center;
+}
+h1 {
+  #white-space: nowrap;
+  #min-width: 480px;
+  width: 480px;
+  font-size: 60px;    
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  padding: 10px;
+  text-shadow: 5px 5px 0 rgba(0, 0, 0, .12);
+  position: relative;
+  z-index: 1;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+#image {
+  
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid; 
+}
+
+img {
+  display: block;
+}
+
+#img-caption{
+  text-align: center;
+  margin: 30px;
+}
+
+#img-div {
+  align-self: center;
+  margin-right: 50px;
+  text-align: center;   
+}
+.white-border{
+  border: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.quoteContainer {
+  width: 50%;
+  position: absolute;
+  margin-left: 3%;
+  left: 0%;
+  top: 0%;
+  #transform: translate(-50%, -50%);
+}
+
+.quoteContainer2 {
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    #transform: translate(-50%, -50%);
+}
+
+.quoteContainer3 {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .12);
+    width: 90%;
+    min-width: 400px;
+    position: absolute;
+    right: 0px;
+    top: 39%;
+    #transform: translate(-50%, -50%);
+}
+
+.quotation{
+  font-size: 30px;
+  font-style: italic;
+}
+
+blockquote{
+  content: open-quote;
+  color: white;
+  font-size: 40px;
+  margin: .5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 0px 30px;
+  line-height: 1.3;
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 40px;
+  color: #fff;
+  font-size: 3em;
+}
+
+#border-left{
+  border-left: 10px solid #fff;
+}
+#border-right{
+  border-right: 10px solid #fff;
+}
+
+
+footer{
+  margin:0;
+  text-align: right;
+  font-size: 1em;
+  font-style: italic;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+@media (max-width: 640px) { 
+  .flex-container{
+    flex-direction: column;
+  }
+  
+  
+}

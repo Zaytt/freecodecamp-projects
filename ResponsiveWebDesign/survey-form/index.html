@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp - Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header>
+  <div class="title-container">
+    <div class="bar1">
+      <h1 id="title">Battle Royale Inc. Official Survey</h1>
+    </div>
+      <div class="bar2">
+      <p id="description">Help us develop the next big battle royale game!</p>
+    </div>
+  </div>
+</header>
+<main>
+  <form id="survey-form">
+    <div class="box-container">
+      <div class="box black-border">
+        <div class="question-box">
+          <fieldset>
+            <h3>Tell us about yourself</h3>
+            <hr>
+            <table class="mytable">
+              <tr>
+                <td class="td-right"><label id="name-label">*Name:</td>
+                <td class="td-left">
+                  <input id="name" class="full-width" required type="text" placeholder="Enter your name"></label></td>  
+              </tr>
+              <tr>
+                <td class="td-right"><label id="number-label">*Age:</td>
+                <td class="td-left">
+                  <input id="number" class="full-width" required type="number" min="13" max="99" placeholder="Enter you age"></label></td>  
+              </tr>
+              <tr>
+                <td class="td-right">*Region:</td>
+                <td class="td-left full-width"><select class="full-width">
+                  <option value="na">North America</option>
+                  <option value="sa">South America</option>
+                  <option value="eu">Europe</option>
+                  <option value="as">Asia</option>
+                </select></td>  
+              </tr>
+              <tr>
+                <td class="td-right"><label id="email-label">*Email:</td>
+                <td class="td-left">
+                  <label id="email-label"><input id="email" class="full-width" required type="email" placeholder="Enter your email"></label></td>  
+              </tr>
+            </table>
+          </fieldset>
+        </div>
+      </div>
+
+    <div class="box black-border">
+        <div class="question-box">
+          <fieldset>
+            <h3>Choose the setting</h3>
+            <hr>
+            <table class="mytable">
+              <tr>
+                <td class="td-right">Era:</td>
+                <td class="td-left"><select id="dropdown">
+                  <option value="na">Medieval (Mostly Melee)</option>
+                  <option value="sa">Early Modern (Limited Firearms)</option>
+                  <option value="eu">WW1/WW2</option>
+                  <option value="as">Cold War Era</option>
+                  <option value="as">Modern Combat</option>
+                  <option value="as">Futuristic</option>
+                  <option value="as">Post-Apocalyptic</option>
+                </select></td>  
+              </tr>
+              <tr>
+                <td class="td-right">Map Sizes: </td>
+                <td class="td-left">
+                  <table>
+                  <tr><td><label><input type="checkbox" name="mapsize" value="bigmap"> 8x8 km (Big)</label></td></tr>
+                  <tr><td><label><input type="checkbox" name="mapsize" value="mediummap"> 5x5 km (Medium)</label></td></tr>
+                  <tr><td><label><input type="checkbox" name="mapsize" value="smallmap"> 3x3 km (Small)</label></td></tr>
+                  </table>
+              </tr>
+              <tr>
+                <td class="td-right">Starting players:</td>
+                <td class="td-left"><select>
+                  <option value="small">10-50</option>
+                  <option value="medium">50-100</option>
+                  <option value="big">100-200</option>
+                </select></td>  
+              </tr>
+             
+            </table>
+          </fieldset>
+        </div>
+      </div>
+      <div class="box black-border">
+        <div class="question-box">
+          <fieldset>
+            <h3>Gameplay</h3>
+            <hr>
+            <table class="mytable">
+              <tr>
+                <td class="td-right">Game Style:</td>
+                <td class="td-left"> 
+                  <fieldset>
+                  <input value="pubg" name="pubgvsfortnite" type="radio"> Realistic
+                    <input value="fortnite" name="pubgvsfortnite" type="radio"> Cartoonish</fieldset>
+                </td>
+              </tr>
+              <tr>
+                <td class="td-right">Game Speed:</td>
+                <td class="td-left"><select>
+                  <option value="na">Slow paced & Tactical</option>
+                  <option value="sa">Fast & Frenetic</option>
+                  <option value="eu">Frenetically Slow</option>
+                </select></td>  
+              </tr>
+              <tr>
+                <td class="td-right">Engagements: </td>
+                <td class="td-left"><select>
+                  <option value="lr">Long Range Combat</option>
+                  <option value="hf">Hills & Forests Combat</option>
+                  <option value="cbq">Urban Close Quarters Combat</option>
+                  <option value="lwb">Long walks by the beach</option>
+                </select></td>  
+              </tr>
+            </table>
+          </fieldset>
+        </div>
+      </div>
+      <div class="box black-border">
+        <div class="question-box">
+          <fieldset>
+            <h3>Suggestions</h3>
+            <hr>
+            <table class="mytable">
+              <tr>
+                <td><textarea></textarea></td>
+              </tr>
+            </table>
+          </fieldset>
+        </div>
+      </div>
+      <div class="box black-border">
+        <div class="submit-box">
+          <button id="submit" class="submit-button"type="submit">Submit</button>
+          <hr>
+          <span id="thanks"> Thanks for your help!</span>
+        </div>
+      </div>
+    </div>
+  </form>
+</main>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
