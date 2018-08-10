@@ -3,9 +3,11 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 Current Completed Projects:
 
-Tribute Page:
+Tribute Page: https://codepen.io/KanjCoder/full/bjazZe/
   - A tribute page dedicated to Bruce Lee.
-  - Implements Parallax scrolling.
 
-Survey-Form:
+Survey-Form: https://codepen.io/KanjCoder/full/pZLLGp
   - A Survey form for a fake upcoming Battle Royale game.
+  
+Landing Page: https://codepen.io/KanjCoder/full/PBaebZ/
+  - A landing Page for a fake trading service.
