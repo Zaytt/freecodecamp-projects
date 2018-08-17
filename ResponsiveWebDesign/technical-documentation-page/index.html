@@ -18,61 +18,139 @@
 <body>
   <div id="full-container">
     <nav id="navbar">
-      <div id="navbar-header" class="flex-container-row">
-        <img id="header-img" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/trading-11-443319.png"/>
-        <div class="flex-container-column">
-          <h1 id="navbar-header-title">MarketSync</h1>
-          <h3 id="navbar-subtitle">Trading Platform</h3>
-        </div> 
-      </div>
+      <header>
+        <div id="navbar-header" class="flex-container-row">
+          <img id="header-img" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/trading-11-443319.png"/>
+          <div class="flex-container-column">
+            <h1 id="navbar-header-title">MarketSync</h1>
+            <h3 id="navbar-subtitle">Trading Platform</h3>
+          </div> 
+        </div>
+      </header>
       <ul id="navbar-list">
-        <li class="bottom-border top-border"><a class="nav-link topic-list">Introduction</a></li>
-        <li class="bottom-border" ><a  class="nav-link topic-list" onclick="showHide('interface-sublist')">Interface</a>
-          <ul id="interface-sublist" class="navbar-sublist" style="display: none;">
-            <li><a class="nav-link">Charts</a></li>
-            <li><a class="nav-link">Portfolio Monitor</a></li>
-            <li><a class="nav-link">Orders</a></li>
+        <li class="bottom-border top-border"><a class="nav-link topic-list" href="#Introduction">Introduction</a></li>
+        <li class="bottom-border" ><a  class="nav-link topic-list" onclick="showHide('interface-sublist')" href="#Interface">Interface</a>
+          <ul id="interface-sublist" class="navbar-sublist" style="display: block;">
+            <li><a class="nav-sublink" href="#interface-charts">Charts</a></li>
+            <li><a class="nav-sublink" href="#interface-portfolio">Portfolio Monitor</a></li>
+            <li><a class="nav-sublink" href="#interface-orders">Orders</a></li>
           </ul>
         </li>
-        <li class="bottom-border" ><a class="nav-link topic-list" onclick="showHide('trade-sublist')" >Trade</a>
-          <ul id="trade-sublist" class="navbar-sublist" style="display: none;">
-            <li><a class="nav-link">Order Entry</a></li>
-            <li><a class="nav-link">Order Types</a></li>
+        <li class="bottom-border" ><a class="nav-link topic-list" onclick="showHide('trade-sublist')" href="#Trade">Trade</a>
+          <ul id="trade-sublist" class="navbar-sublist" style="display: block;">
+            <li><a class="nav-sublink" href="#trade-order-entry">Order Entry</a></li>
+            <li><a class="nav-sublink" href="#trade-order-type">Order Types</a></li>
           </ul>
         </li>
-        <li class="bottom-border" ><a class="nav-link topic-list" onclick="showHide('chart-sublist')" >Charts</a>
-          <ul id="chart-sublist" class="navbar-sublist" style="display: none;">
-            <li><a class="nav-link">Chart Types</a></li>
-            <li><a class="nav-link">Technical Indicators</a></li>
+        <li class="bottom-border" ><a class="nav-link topic-list" onclick="showHide('chart-sublist')" href="#Charts">Charts</a>
+          <ul id="chart-sublist" class="navbar-sublist" style="display: block;">
+            <li><a class="nav-sublink" href="#charts-types">Chart Types</a></li>
+            <li><a class="nav-sublink" href="#charts-indicators">Technical Indicators</a></li>
           </ul>
         </li>
-        <li><a class="nav-link topic-list">Algo-Trading</a></li>
+        <li><a class="nav-link topic-list"href="#Algo-Trading" onclick="showHide('algo-sublist')">Algo-Trading</a>
+          <ul id="algo-sublist" class="navbar-sublist" style="display: block;">
+            <li><a class="nav-sublink" href="#algorithms-custom">Custom Algorithms</a></li>
+            
+        </li>
       </ul>
     </nav>
     <main id="main-doc">
       <section id="Introduction" class="main-section">
         <header><h1 class="section-title">Introduction</h1></header>
-        <p class=""> The MarketSync™ Trading Platform provides 
+        <p class="text-info"> The MarketSync™ Trading Platform provides the user with an advaced tool to trade any market. State of the art charts and indicators allow to keep track of market fluctuations and trends. 
         </p>
       </section>
       <section id="Interface" class="main-section">
         <header><h1 class="section-title">Interface</h1></header>
-        <h2 class="section-subtitle">Charts</h2>
-        <h2 class="section-subtitle">Portfolio Monitor</h2>
-        <h2 class="section-subtitle">Orders</h2>
+        <p class="text-info">The main interface of the platform is divided in 3 sections: Charts, the Portfolio Monitor and the Order Section.</p>
+        <img class="screenshot" src="https://www.oanda.com/wandacache/2017_mobilecharttrading-aef3aebded8fbcea6076431153e8c304eddfabdf.png"/>
+
+        <h2 id="interface-charts" class="section-subtitle">Charts</h2>
+        <p class="text-info">The chart section is by default on the left part of the screen but can be moved to any other part depending ont he user preferences or even taken out if desired.</p>
+        <h2 id="interface-portfolio" class="section-subtitle">Portfolio Monitor</h2>
+        <p class="text-info">The portfolio monitor is located on the top right part of the screen and provides the user with the current status and information about his portfolio, the assets that he owns and their current performance.</p>
+        <h2 id="interface-orders" class="section-subtitle">Orders</h2>
+        <p class="text-info">In the orders section, located by default in the bottom of the screen, the user can ask for quotes and place orders for any of the markets available.</p>
       </section>
       <section id="Trade" class="main-section">
         <header><h1 class="section-title">Trade</h1></header>
-        <h2 class="section-subtitle">Order Entry</h2>
-        <h2 class="section-subtitle">Order Type</h2>
+        
+        <h2 class="section-subtitle" id="trade-order-entry">Order Entry</h2>
+        <p class="text-info">Use the Order Entry panel to create and then Submit or Save an order. It's easy to change the asset by selecting from the drop down list of previously used instruments, or typing in a new one manually. To set up an option order, click the Option Chain button to easily pick an option contract.</p>
+        <img class="screenshot" src="https://www.interactivebrokers.com/en/software/tws/resources/images/order_entry_970_final_callouts.png"/>
+        <h2 class="section-subtitle" id="trade-order-type">Order Types</h2>
+        <p class="text-info">The platform includes the most common types of orders as well as our propietary algorithmic orders.</p>
+        <ul id="orders-list">
+          <li>Market Orders</li>
+          <li>Limit Orders</li>
+          <li>Stop Orders</li>
+          <li>Stop Limit</li>
+          <li>Algo-Buys & Algo-Sells</li>
+        </ul>
       </section>
       <section id="Charts" class="main-section">
-        <header><h1 class="section-title">Charts</h1></header>
-        <h2 class="section-subtitle">Chart Types</h2>
-        <h2 class="section-subtitle">Technical Indicators</h2>
+        <header><h1 class="section-title" >Charts</h1></header>
+        <p class="text-info">Charting in the is one of the best and most impresive features of the MarketSync™ Trading Platform. With its multiple offer of chart types as well as indicators, it is the most advanced charting platform in the planet.</p>
+        <h2 class="section-subtitle" id="charts-types">Chart Types</h2>
+        <p class="text-info">The charts available to use in the platform are:</p>
+        <ul id="orders-list">
+          <li>Line Charts</li>
+          <li>Bar Charts</li>
+          <li>Japanese Candles</li>
+          <li>Hollow Candles</li>
+          <li>Heiken Ashi</li>
+          <li>Renko Charts</li>
+          <li>Tick Charts</li>
+        </ul>
+        <h2 class="section-subtitle" id="charts-indicators">Technical Indicators</h2>
+        <p class="text-info">From RSI to Stochastics and Moving Averages, the MarketSync™ Trading Platform has every indicator possible and the some as the platform allows the user to code in their own indicators.</p>
+        <p class="text-info">The full list of technical indicators available can be found <a href="">here</a>.</p>
       </section>
       <section id="Algo-Trading" class="main-section">
         <header><h1 class="section-title">Algo-Trading</h1></header>
+        <p class="text-info">The platform includes our proprietary IB Algos are designed to help balance market impact with risk on your large volume orders.</p>
+        <h2 class="section-subtitle" id="algorithms-custom">Custom Algorithms</h2>
+        <p class="text-info"> Our platform allows the user to code in their own buy and sell algorithms using a very intuitive and easy to use coding language designed exclusively for trading.</p>
+        <p class="text-info">Example 1: Declaring an asset variable</p>
+        <code class="code">#import assets.file; 
+          
+Asset a = $NFLX;
+Asset b = $USDMXN;
+        </code>
+        <p class="text-info">Example 2: Buying and selling an asset</p>
+        <code class="code">import assets.code; 
+import operations.code;
+          
+Asset a = $NFLX;
+var qty = 1;
+operation.buy(qty, a, "market");</code>
+        <p class="text-info">Example 3: Building a panic stop order</p>
+        <code class="code">import assets.code; 
+import operations.code;
+          
+if(indexes.SP500
+          .dailyChange
+          .isMoreThan(-5%){
+  operation.sellPortfolio(all, market);
+}</code>
+        <p class="text-info">Example 4: Building a virtual ETF</p>
+        <code class="code">import assets.code; 
+import etf.code;
+          
+Asset f = $FB;
+Asset a = $AMZN;
+Asset n = $NFLX;
+Asset g = $GOOGL;
+Etf $fang = etf.builder(f+a+n+g);</code>
+        <p class="text-info">Example 5: Setting a tradebot</p>
+        <code class="code">import assets.code; 
+import bots.code;
+          
+Asset a = $NFLX;
+Strategy myStrat = new Strategy(RSIstrat)
+myBot = new bot("autotrade", myStrat, daily);
+myBot.start();</code>
       </section>
     </main>
   </div>
