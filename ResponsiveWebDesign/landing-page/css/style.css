@@ -231,7 +231,7 @@ hr{
 footer{
   padding: 20px;
   color: white;
-  background-color: black;
+  background-color: #282E34;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -324,7 +324,7 @@ h5 {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: lightblue;
+  color: #89bdf0;
 }
 
 .desc{
