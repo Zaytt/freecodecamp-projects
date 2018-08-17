@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  height: 100%;
+}
+
+.flex-container-row{
+  display: flex;
+  flex-direction: row;  
+  margin : 0;
+}
+
+.flex-container-column{
+  display: flex;
+  flex-direction: column;  
+  margin : 0;
+}
+
+#header-img{
+  width: 90px;
+  height: 90px;
+  margin-left: 10px;
+}
+
+
+#navbar{
+  position: fixed;
+  background-color: #282E34;
+  border: solid 1px black;
+  width: 300px;
+  min-width: 250px;
+  height: 100%;
+  
+}
+
+#navbar-header{
+  display: flex;
+  heigth: 100%;
+}
+
+#navbar-header-title{
+  margin: 10px 0px 0px 10px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#navbar-subtitle{
+  margin: 10px 0px 0px 10px;
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#navbar-list{
+  font: 400 21px/1.8 "Lato", sans-serif;
+  color: #DDD;
+  list-style: none;
+  text-align: left;
+  padding: 0 0 0 0px;
+}
+
+.navbar-sublist{
+  font: 400 18px/1.8 "Lato", sans-serif; 
+  text-align: left;
+  padding: 0 0 0 40px;
+  margin-left: 40px;
+  list-style-type: disc;
+}
+
+.nav-link{
+  width: 100%;
+  cursor: pointer;
+}
+
+.topic-list{
+  margin-left: 30px;
+}
+
+.bottom-border{
+  border-bottom: 1px #999 solid;
+}
+
+.top-border{
+  border-top: 1px #999 solid;
+}
+
+#main-doc{
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+.section-title{
+  font: 400 30px/1.8 "Lato", sans-serif; 
+  margin-top: 0;
+  color: black;
+}
+
+.section-subtitle{
+  font: 400 22px/1.8 "Lato", sans-serif; 
+  margin-top: 0;
+  color: black;
+  margin-left: 30px;
+}
+
