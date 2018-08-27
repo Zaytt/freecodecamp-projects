@@ -14,3 +14,6 @@ Landing Page: https://codepen.io/KanjCoder/full/PBaebZ/
 
 Technical Documentation Page: https://codepen.io/KanjCoder/full/EpGKKb/
   - A technical documentation page for a fake trading platform.
+
+Portfolio Page: https://codepen.io/KanjCoder/full/XPWZKV/
+  - A page to show my projects
