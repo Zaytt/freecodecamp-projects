@@ -17,3 +17,6 @@ Technical Documentation Page: https://codepen.io/KanjCoder/full/EpGKKb/
 
 Portfolio Page: https://codepen.io/KanjCoder/full/XPWZKV/
   - A page to show my projects
+
+Random Quote Machine: https://codepen.io/KanjCoder/full/PyGeoG/
+  - A random Simpsons quotes app built using React.js
