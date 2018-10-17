@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-const marked = require('marked');
-
+let marked = require('marked');
+marked.setOptions({
+  breaks: true,
+});
 class Previewer extends Component{
-  
+
   render(){
     return(
       <div id="preview-box" class="container">
