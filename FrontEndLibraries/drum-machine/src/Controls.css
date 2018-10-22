@@ -9,9 +9,11 @@
 
 #controls-container{
   text-align: center;
+  width: 200px;
 }
 
 #display{
+  background-image: linear-gradient(to bottom right, dodgerblue, white, dodgerblue);
   margin-top: 20px;
   margin-bottom: 20px;
   border: solid black 2px;

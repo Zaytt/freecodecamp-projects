@@ -20,12 +20,15 @@ class DrumMachine extends Component{
   constructor(){
     super();
     this.state = {
-      currentSound : ''
+      currentSound : '',
+      volume: ''
     }
     
     this.updateCurrentSound = this.updateCurrentSound.bind(this);
+    this.setVolume = this.updateCurrentSound.bind(this);
   }
   
+
   updateCurrentSound = (sound) => {
     this.setState({
       currentSound : sound
@@ -77,11 +80,11 @@ class DrumMachine extends Component{
       <div id="drum-machine">
         <div id="drum-pad-container">
       
-          {sounds.map(d => ( <DrumPad ref = {d.letter} data = {d} updateCurrentSound = {this.updateCurrentSound}/> ))}
+          {sounds.map(d => ( <DrumPad key={d.id} ref = {d.letter} data = {d} updateCurrentSound = {this.updateCurrentSound} volume={this.state.volume}/> ))}
 
         </div>
         <div id="controls-container">
-          <Controls sound = {this.state.currentSound}/>
+          <Controls sound = {this.state.currentSound} volume =  {this.state.volume}/>
         </div>
       </div>
     );

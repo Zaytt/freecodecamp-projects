@@ -2,6 +2,12 @@ import React, {Component} from 'react';
 import './Controls.css';
 
 class Controls extends Component{
+  
+  constructor(props){
+    super(props);
+    
+    
+  }
 
   
   render(){
@@ -9,8 +15,6 @@ class Controls extends Component{
     return (
       <div id="controls-container">
         <div id="display"><p>{this.props.sound}</p></div>
-        <p>Volume:</p>
-        <input type="range" min="1" max="100" value="50"/>
         
       </div>
     );
