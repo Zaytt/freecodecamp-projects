@@ -23,3 +23,6 @@ Random Quote Machine: https://codepen.io/KanjCoder/full/PyGeoG/
 
 Markdown Previewer: https://codepen.io/KanjCoder/pen/PyQgGN
   - Interprets and displays github flavored markdown by using the marked library and React.js
+
+Drum Machine: https://codepen.io/KanjCoder/pen/ePMqNE
+  - A machine that plays different sounds, activated via mouse clicks or keyboard taps. Built using React.js
