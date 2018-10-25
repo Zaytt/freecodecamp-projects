@@ -4,9 +4,9 @@ class Display extends Component{
   
   render(){
     return (
-      <div id="display">
-        <div id="operations"></div>
-        <div id="result"></div>
+      <div id="screen">
+        <div id="operations">{this.props.exp}</div>
+        <div id="display">{this.props.result}</div>
       </div>
     );
   }

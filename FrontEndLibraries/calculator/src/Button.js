@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 
 class Button extends Component{
-  
-  
+
   render(){
+    
+    
     const gridArea = { gridArea : this.props.gridArea};
     let buttonClass = '';
     switch (this.props.number){
@@ -36,7 +37,7 @@ class Button extends Component{
     }
     
     return(
-      <div id={this.props.id} style= {gridArea} className={buttonClass}><p>{this.props.number}</p></div>
+      <div id={this.props.id}  style= {gridArea} className={buttonClass} onClick={this.props.update}>{this.props.number}</div>
     );
   }
 }
