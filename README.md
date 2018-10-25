@@ -26,3 +26,6 @@ Markdown Previewer: https://codepen.io/KanjCoder/pen/PyQgGN
 
 Drum Machine: https://codepen.io/KanjCoder/pen/ePMqNE
   - A machine that plays different sounds, activated via mouse clicks or keyboard taps. Built using React.js
+
+Javascript Calculator: https://codepen.io/KanjCoder/pen/OBawZR?editors=0010
+  - A simple calculator using JavaScript and React.js
