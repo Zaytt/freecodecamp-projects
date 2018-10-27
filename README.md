@@ -6,9 +6,9 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Javascript ALgorithms & Data Structures](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/javascript-algorithms-and-data-structures)
 
 
-Current Completed Projects:
+## Completed Projects:
 
-## Responsive Web Design Challenges: 
+### Responsive Web Design Challenges
 
 Tribute Page: https://codepen.io/KanjCoder/full/bjazZe/
   - A tribute page dedicated to Bruce Lee.
@@ -25,7 +25,7 @@ Technical Documentation Page: https://codepen.io/KanjCoder/full/EpGKKb/
 Portfolio Page: https://codepen.io/KanjCoder/full/XPWZKV/
   - A page to show my projects
 
-## Front End Libraries Challenges
+### Front End Libraries Challenges
 
 Random Quote Machine: https://codepen.io/KanjCoder/full/PyGeoG/
   - A random Simpsons quotes app built using React.js
