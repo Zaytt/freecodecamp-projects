@@ -3,7 +3,7 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 ## Certifications Earned:
 - [Responsive Web Design](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/responsive-web-design)
-- [Javascript ALgorithms & Data Structures](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/javascript-algorithms-and-data-structures)
+- [Javascript Algorithms & Data Structures](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/javascript-algorithms-and-data-structures)
 
 
 ## Completed Projects:
