@@ -1,4 +1,13 @@
 #pomodoro-container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#session-display{
   width: 60vh;
   height: 60vh;
   border: 1.5vh white solid;
@@ -8,20 +17,17 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items:center;
   font-size: 12vh;
-  color: white;
-
 }
 
 
+#timer-label{
+  display: none;
+}
 #icon-container{
   margin-top: 10%;
   margin-bottom:5%; 
-}
-
-#icon{
-  cursor: pointer;
 }
 
 #time-left{
@@ -42,4 +48,41 @@
 #reset{
   visibility: false;
   margin-left: 3vh;
+}
+
+#controls-container{
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 5vh;
+  color: white;
+  font-family: monospace;
+  margin-bottom: 8vh;
+}
+
+.controller{
+  display: flex;
+  flex-direction: column;
+}
+.button-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-container i{
+  font-size: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.controller span{
+  margin-left: 1vh;
+  margin-right: 1vh;
 }
