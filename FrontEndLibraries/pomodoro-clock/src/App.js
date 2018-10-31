@@ -8,6 +8,9 @@ class App extends Component {
       <div className="App">
         <h1 id="title">JitomaTimer</h1>
         <Pomodoro />
+        <div id="credits">
+          <p>Designed and coded by: Ivan Chavez E.</p>
+        </div>
       </div>
     );
   }

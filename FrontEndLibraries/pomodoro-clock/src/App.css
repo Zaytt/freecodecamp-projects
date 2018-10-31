@@ -20,6 +20,13 @@
   letter-spacing: 1vh;
 }
 
+#credits{
+  color: #ffc0b2;
+  margin: 0;
+  font-family: monospace;
+  font-size: 2vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
