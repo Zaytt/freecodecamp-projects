@@ -24,8 +24,10 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 - [Random Quote Machine](https://codepen.io/KanjCoder/full/PyGeoG/): A random Simpsons quotes app built using React.js
 
-- [Markdown Previewer](https://codepen.io/KanjCoder/pen/PyQgGN): Interprets and displays github flavored markdown by using the marked library and React.js
+- [Markdown Previewer](https://codepen.io/KanjCoder/full/PyQgGN): Interprets and displays github flavored markdown by using the marked library and React.js
 
-- [Drum Machine](https://codepen.io/KanjCoder/pen/ePMqNE): A machine that plays different sounds, activated via mouse clicks or keyboard taps. Built using React.js
+- [Drum Machine](https://codepen.io/KanjCoder/full/ePMqNE): A machine that plays different sounds, activated via mouse clicks or keyboard taps. Built using React.js
 
-- [Javascript Calculator](https://codepen.io/KanjCoder/pen/OBawZR?editors=0010): A simple calculator using JavaScript and React.js
+- [Javascript Calculator](https://codepen.io/KanjCoder/full/OBawZR): A simple calculator using JavaScript and React.js
+
+--[Pomodoro Timer](https://codepen.io/KanjCoder/full/RezaZP/): A pomodoro clock to help you manage your work time and increase productivity. Built using React.js
