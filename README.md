@@ -30,4 +30,4 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 - [Javascript Calculator](https://codepen.io/KanjCoder/full/OBawZR): A simple calculator using JavaScript and React.js
 
--- [Pomodoro Timer](https://codepen.io/KanjCoder/full/RezaZP/): A pomodoro clock to help you manage your work time and increase productivity. Built using React.js
+- [Pomodoro Timer](https://codepen.io/KanjCoder/full/RezaZP/): A pomodoro clock to help you manage your work time and increase productivity. Built using React.js
