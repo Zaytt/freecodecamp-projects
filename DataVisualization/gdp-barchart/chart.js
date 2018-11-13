@@ -13,7 +13,6 @@ function getDataSet(){
     let dataset = d.data;
     dataset.forEach((d) => { d.time = new Date(d.time * 1000)});
     drawChart(dataset)
-    
   });
 }
 
@@ -153,7 +152,7 @@ function drawChart(dataset){
             .style('width', barWidth + 'px')
             .style('opacity', .9)
             .style('left', (i * barWidth) + padding + chartPos.left + 'px')
-            .style('top', yScale(d[1])+100 + 'px')
+            .style('top', chartPos.top + yScale(d[1]) + 'px')
 
     
       
@@ -164,7 +163,7 @@ function drawChart(dataset){
           tooltip.html(yearsQuartersArray[i] + '<br>' + '$' + GDPArray[i].toFixed(1).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' Billion')
             .attr('data-date', dataset[i][0])
             .style('left', (i * barWidth) + chartPos.left + 'px')
-            .style('top', svgHeight - 100 + 'px')
+            .style('top', chartPos.top + svgHeight - 200 + 'px')
             .style('transform', 'translateX(60px)');
       }) 
       .on('mouseout', function(d) {
