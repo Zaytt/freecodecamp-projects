@@ -15,7 +15,6 @@ function getDataSet(){
 }
 function drawScatterPlot(dataset){
   
-  console.log(dataset);
   
   //Define the graph size
   
