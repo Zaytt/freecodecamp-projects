@@ -111,7 +111,7 @@ function drawHeatMap(dataset){
             
             const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             
-            let tooltipInfo =`${d.year} - ${monthNames[d.month]}<br>${Math.round((baseTemp+d.variance) * 10) / 10} &#176;C <br> ${Math.round(d.variance*10)/10} &#176;C`; 
+            let tooltipInfo =`${d.year} - ${monthNames[d.month-1]}<br>${Math.round((baseTemp+d.variance) * 10) / 10} &#176;C <br> ${Math.round(d.variance*10)/10} &#176;C`; 
             tooltip.transition()		
                 .duration(200)		
                 .style("opacity", .7);	

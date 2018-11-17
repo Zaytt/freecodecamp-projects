@@ -1,0 +1,39 @@
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+h1, h4{
+  text-align: center;
+}
+#map-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+#map{
+  width: 100%
+  display: block;
+  margin: auto;
+}
+
+#legend{
+  width: 100%
+  display: block;
+  margin: auto;
+}
+
+#tooltip{
+  position: absolute;
+  padding: 10px;                
+  font: 12px Arial;        
+  background-color: lightyellow;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none; 
+}

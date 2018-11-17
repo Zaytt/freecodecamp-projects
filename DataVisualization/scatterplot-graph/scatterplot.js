@@ -33,7 +33,7 @@ function drawScatterPlot(dataset){
     .attr('id', 'chart');
   
   // Define the div for the tooltip
-  let tooltip = d3.select("body").append("div")	
+  let tooltip = d3.select("chart-container").append("div")	
     .attr("id", "tooltip")				
     .style("opacity", 0);
   
