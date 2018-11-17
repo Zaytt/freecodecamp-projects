@@ -8,7 +8,7 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 ## Completed Projects:
 
-### Responsive Web Design Challenges
+### Responsive Web Design Projects
 
 - [Tribute Page](https://codepen.io/KanjCoder/full/bjazZe/): A tribute page dedicated to Bruce Lee.
 
@@ -20,7 +20,7 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 
 - [Portfolio Page](https://codepen.io/KanjCoder/full/XPWZKV/): A page to show my projects
 
-### Front End Libraries Challenges
+### Front End Libraries Projects
 
 - [Random Quote Machine](https://codepen.io/KanjCoder/full/PyGeoG/): A random Simpsons quotes app built using React.js
 
@@ -31,3 +31,13 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Javascript Calculator](https://codepen.io/KanjCoder/full/OBawZR): A simple calculator using JavaScript and React.js
 
 - [Pomodoro Timer](https://codepen.io/KanjCoder/full/RezaZP/): A pomodoro clock to help you manage your work time and increase productivity. Built using React.js
+
+### Data Visualization Projects
+
+- [Bar Chart](https://codepen.io/KanjCoder/details/ZmOMdy/): A bar char made using the d3 library showing the historial GDP of the United States.
+
+- [Scatterplot Chart](https://codepen.io/KanjCoder/full/YRpMqZ/): A scatterplot chart showing the incidence of dopingamong the competitors in bicycle racing
+
+- [Heatmap](https://codepen.io/KanjCoder/full/GwmqNa/): A heatmap showing the monthly global land temperature.
+
+- [Choropleth Map](https://codepen.io/KanjCoder/full/MzvbaP/): A map showing the percentage of highly educated people in the US by county.
