@@ -32,7 +32,7 @@ function drawChoropeth(map, data){
   let tooltip = d3.select("body")
                   .append("div")	
                   .attr("id", "tooltip")				
-                  .style("opacity", 0);
+                  .style("opacity", 0); 
   
   let svgMap = d3.select("#map-container")
                 .append("svg")
