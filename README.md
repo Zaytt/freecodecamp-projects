@@ -5,7 +5,7 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Responsive Web Design](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/responsive-web-design)
 - [Javascript Algorithms & Data Structures](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/javascript-algorithms-and-data-structures)
 - [Front End Libraries](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/front-end-libraries)
-
+- [Data Visualization](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/data-visualization)
 ## Completed Projects:
 
 ### Responsive Web Design Projects
@@ -41,3 +41,5 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Heatmap](https://codepen.io/KanjCoder/full/GwmqNa/): A heatmap showing the monthly global land temperature.
 
 - [Choropleth Map](https://codepen.io/KanjCoder/full/MzvbaP/): A map showing the percentage of highly educated people in the US by county.
+
+- [Treemap Diagram](https://codepen.io/KanjCoder/full/GwQxPm/): A diagram showing the top 100 projects on Kickstarter divided by category
