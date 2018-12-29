@@ -43,3 +43,15 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Choropleth Map](https://codepen.io/KanjCoder/full/MzvbaP/): A map showing the percentage of highly educated people in the US by county.
 
 - [Treemap Diagram](https://codepen.io/KanjCoder/full/GwQxPm/): A diagram showing the top 100 projects on Kickstarter divided by category
+
+### APIs & Microservices Projects
+
+- [Timestamp Microservice](https://zaytt-timestamp-microservice.glitch.me/): A small application to get the date in both unix & utc formats using node.js.
+
+- [Header Parse Microservice](https://zaytt-header-parser.glitch.me/): A program showing the user information contained in a request
+
+- [URL Shortener Microservice](https://zaytt-url-shortener.glitch.me/): An application to shorten URLs. Built with node.js and MongoDB.
+
+- [Exercise Tracker](https://zaytt-exercise-tracker-api.glitch.me/): An API that allows to create users and log their exercise activity. Built using Node.js and MongoDB.
+
+- [File Metadata MIcroservice](https://zaytt-file-metadata.glitch.me/): A file uploading application that retunrs a JSON with the info of the uploaded file. Built using Nose.js & Multer.
