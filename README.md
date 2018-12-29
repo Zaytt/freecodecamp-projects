@@ -6,6 +6,7 @@ A collection of the FreeCodeCamp projects, updated as I go through them
 - [Javascript Algorithms & Data Structures](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/javascript-algorithms-and-data-structures)
 - [Front End Libraries](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/front-end-libraries)
 - [Data Visualization](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/data-visualization)
+-[APIs & Microservices](https://www.freecodecamp.org/certification/fccc931a348-711f-4df2-af61-62b2e43c793a/apis-and-microservices)
 ## Completed Projects:
 
 ### Responsive Web Design Projects
